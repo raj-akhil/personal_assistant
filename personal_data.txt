@@ -1,0 +1,103 @@
+Name: Akhil Raj Rajan
+
+Current Position:
+- Senior Data Conversion Engineer at NHS Ipswich (since September 2023)
+
+Professional Summary:
+Akhil is an experienced Data Engineer and Analyst with expertise across ETL development, clinical system migrations, machine learning for healthcare, cloud data pipelines, and business intelligence dashboards. He has worked in both Indian and UK healthcare and analytics environments, with strong command over technologies like Informatica, AWS, Azure Data Factory, HL7, SQL, Python, Power BI, and PySpark. Known for cross-functional collaboration and deep analytical thinking, Akhil’s contributions have enabled high-impact outcomes, including £1B+ in NHS-wide savings.
+
+---
+
+WORK EXPERIENCE
+
+1. **NHS Ipswich, UK – Senior Data Conversion Engineer (Sep 2023 – Present)**
+
+- Responsible for **leading data migration from legacy EHR systems** like ChemoCare, Medisite, and Evolve into the EPIC Electronic Patient Record (EPR).
+- **Expertly used HL7 protocol and the Rhapsody Integration Engine** to ensure clean, structured, and standardized messaging between healthcare systems during ETL.
+- Designed and executed **high-quality, error-free data pipelines** by validating schemas, handling data quality checks, managing type mismatches, and aligning with EPIC's strict data models.
+- Ran **interactive validation workshops** with nurses, data managers, and consultants to reconcile clinical data with system constraints — ensuring semantic and structural accuracy.
+- Identified edge cases like abnormal lab value mappings or ambiguous date conversions and developed **automated detection scripts** to reduce manual review workload.
+- Interfaced regularly with **cross-functional NHS teams** (IT leads, EPIC experts, Trust data controllers) and explained complex data transformations to non-technical stakeholders.
+- Leveraged both **SQL scripts and Python** for preprocessing, and **Rhapsody's orchestration logic** for real-time message delivery.
+- Delivered modules on patient demographics, treatment history, and oncology protocols with complete audit trails.
+- These efforts contributed to **£1B NHS savings**, attributed to increased operational efficiency and reduced patient risk due to data inconsistencies.
+
+---
+
+2. **Newcastle University, UK – Data Analyst (Sep 2023 – Jul 2024)**
+
+- Worked on the **LITMUS liver fibrosis prediction project**, involving sensitive patient-level medical data.
+- Applied **logistic regression, random forest, and SVM models** to determine fibrosis stages using blood test markers.
+- Validated models with **AUROC (achieving 0.94), accuracy, and F1 score**, and interpreted statistical reliability using **t-tests and z-tests**.
+- Performed **advanced data cleaning**: outlier detection via Minimum Covariance Determinant (MCD), normalization, **MISE smoothing**, and **SMOTE** for class balancing.
+- Visualized patient clustering using **PCA** and **t-SNE** to discover novel phenotypic groupings.
+- Explained model decisions using **SHAP and LIME**, helping medical collaborators understand feature importance.
+- Used R, Python, SQL, and Power BI to build reports that could be interpreted by both clinical and data science teams.
+- Drafted **two research manuscripts** based on predictive modeling and scoring system comparison.
+- Facilitated collaboration between academic researchers, NHS clinicians, and data governance officers.
+
+---
+
+3. **Febos, UK – Data Analytics Consultant (Aug 2024 – Oct 2024)**
+
+- Provided **data-driven consulting for manufacturing optimization**.
+- Built Excel dashboards that used **pivot tables, filtering, conditional formatting**, and advanced formulas for reporting KPIs.
+- Applied **k-prototype clustering** on production line data to identify underperforming configurations.
+- Proposed strategic process changes based on statistical grouping similarities, improving production efficiency.
+- Explained cluster interpretations to senior management with **simple visual summaries**, enabling quick adoption of recommendations.
+
+---
+
+4. **Infosys Ltd, India – Data Engineer / BI Developer (Mar 2021 – Oct 2022)**
+
+- Designed and maintained large-scale **ETL pipelines** using **Informatica**, AWS Lambda, and Data Pipeline.
+- Pulled data from source systems (e.g., Oracle, flat files, APIs), performed transformations, and loaded into AWS Redshift and S3.
+- Wrote **shell scripts and Python code** to automate ETL execution and handle failover/retry logic.
+- Implemented **SCD2 slowly changing dimension logic** for historical data tracking in data warehouse.
+- Developed **Power BI dashboards** for client reporting, and supported existing **SSRS and Tableau** visualizations.
+- Collaborated with global delivery teams and clients from retail, healthcare, and telecom sectors to develop customized BI workflows.
+- Recognized as “**Rookie of the Quarter**” for rapid onboarding and initiative in process automation.
+
+---
+
+EDUCATION
+
+- **MSc in Data Science**, Newcastle University (2022–2023) – Graduated with Distinction (72.6%)
+  - Dissertation: Built a **BERT-based disease prediction model** using UK Biobank data, deployed as a Flask app on local server. Applied embedding techniques to boost model performance and interpretability.
+  - Coursework: ML, DL, Big Data, Cloud, EDA
+
+- **B.Tech in Mechanical Engineering**, APJ Abdul Kalam Technological University (2016–2020), 86%
+
+---
+
+PROJECTS & TECHNICAL ACHIEVEMENTS
+
+- **Power BI Dashboards**:
+  - Infection Rate Analysis (Manchester): Used Gestalt principles for better visual cognition.
+  - Emergency Department COVID Analysis (Wales, NHS-funded): Tracked pandemic response metrics.
+- **Web Scraping Hackathon**: Ranked 2nd at Newcastle University – Scraped and preprocessed 400,000+ records from public websites.
+- **Candidate Success Predictor**: Achieved 90% accuracy predicting candidate fit for HC-One using real hiring data.
+- **NLP & ML Projects**:
+  - Built NLP classifiers on Tweet/FARS data using TensorFlow and scikit-learn
+  - EDA on datasets like breast cancer, penguins, and environmental sensor data from Newcastle Urban Observatory
+
+---
+
+SKILLS & TOOLS
+
+- **Languages**: Python, R, SQL, Shell Script, Java, C++, DAX
+- **ETL & Integration**: Informatica, Rhapsody, Azure Data Factory
+- **Cloud**: AWS (S3, Redshift, Lambda, Data Pipeline, EMR), Azure
+- **BI & Visualization**: Power BI, Tableau, SSRS, Advanced Excel
+- **Machine Learning**: scikit-learn, TensorFlow, SHAP, LIME, SMOTE
+- **Statistical Methods**: PCA, t-SNE, MCD, AUROC, z-tests, t-tests
+- **Data Modeling**: SCD2, star/snowflake schemas, entity relationships
+- **Other Tools**: Git, Jira, Confluence, HL7, MongoDB, Neo4j, RedWood Scheduler
+
+---
+
+INTERESTS
+
+- Healthcare data science, predictive analytics, AI in medicine
+- Scientific discovery, logical systems, neuroscience, seizure prediction
+- Innovating low-cost devices (e.g., plasma launchers), real-world problem solving
