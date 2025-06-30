@@ -17,25 +17,25 @@ A lightweight, local-first personal assistant chatbot powered by the [Ollama](ht
 
 ## 🗂️ Folder Structure
 
-personal_assistant/
-├── main.py # Main Python script
-├── personal_data.txt # Your private profile (ignored by Git)
-├── .gitignore # Ensures sensitive files aren't pushed
-├── requirements.txt # Python dependencies
-└── README.md # This file
+personal_assistant/  
+├── main.py # Main Python script   
+├── personal_data.txt # Your private profile (ignored by Git)   
+├── .gitignore # Ensures sensitive files aren't pushed   
+├── requirements.txt # Python dependencies   
+└── README.md # This file   
 
 ## 📄 personal_data.txt Format
 
 You must manually create a file called `personal_data.txt` in the project root.
 
 ### ✍️ Example Format:
-
-Name: Amal
-Age: 28
-Occupation: Senior Data Engineer at NHS
-Hobbies: Science, logic, building personal AI tools, plasma experiments
-Personality: Curious, skeptical, clever, honest, Gen Z vibe
-Goals: Become a thought leader in data science and AI
+ 
+Name: Amal  
+Age: 28  
+Occupation: Senior Data Engineer at NHS  
+Hobbies: Science, logic, building personal AI tools, plasma experiments  
+Personality: Curious, skeptical, clever, honest, Gen Z vibe  
+Goals: Become a thought leader in data science and AI  
 
 
 
