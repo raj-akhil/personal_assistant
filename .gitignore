@@ -1,0 +1,25 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+env/
+*.egg-info/
+
+# Personal data you don’t want to push
+personal_data.txt
+
+# Model files (just in case)
+*.bin
+*.gguf
+models/
+ollama-models/
+
+# System junk
+.DS_Store
+Thumbs.db
+
+# Jupyter notebooks checkpoint files
+.ipynb_checkpoints/
