@@ -1,10 +1,13 @@
+   
 import subprocess
 import requests
 import time
 from ollama import Client
+import ollama
+
 
 OLLAMA_HOST = 'http://localhost:11434'
-MODEL_NAME = 'llama3'  # or whatever you've pulled like 'olama:5.3'
+MODEL_NAME = 'deepseek-r1:7b'  # or whatever you've pulled like 'olama:5.3'
 
 # --- STEP 1: Check if Ollama is running ---
 def is_ollama_running():
@@ -53,6 +56,18 @@ Please answer as if you personally know them well.
     )
     print("🤖:", response['message']['content'])
 
+
+
+def ensure_model_exists(model_name):
+    try:
+        ollama.show(model_name)
+    except ollama.ResponseError:
+        print(f"📥 Model '{model_name}' not found. Downloading now...")
+        ollama.pull(model_name)
+        print("✅ Download complete!")    
+        
+        
+        
 # --- STEP 4: Main interactive loop ---
 def main():
     # Start ollama if needed
@@ -61,7 +76,7 @@ def main():
 
     client = Client(host=OLLAMA_HOST)
     personal_info = load_personal_info()
-
+    ensure_model_exists(MODEL_NAME)
     print("🧠 Ask me anything about YOU. Type 'exit' to quit.")
     while True:
         user_input = input("🧑 You: ")
@@ -70,4 +85,4 @@ def main():
             break
         ask_about_me(client, personal_info, user_input)
 if __name__ == "__main__":
-    main()
+    main()    
