@@ -1,29 +1,29 @@
 
-## 🗂️ Folder Structure
+## 🗂️ Folder Structure 
 
-personal_assistant/
-├── main.py # Main Python script
-├── personal_data.txt # Your private profile (ignored by Git)
-├── .gitignore # Ensures sensitive files aren't pushed
-├── requirements.txt # Python dependencies
-└── README.md # This file
-
+personal_assistant/  
+├── main.py # Main Python script  
+├── personal_data.txt # Your private profile (ignored by Git)  
+├── .gitignore # Ensures sensitive files aren't pushed  
+├── requirements.txt # Python dependencies  
+└── README.md # This file  
+ 
 ## 📄 personal_data.txt Format
 
-You must manually create a file called `personal_data.txt` in the project root.
+You must manually create a file called `personal_data.txt` in the project root. 
 
-### ✍️ Example Format:
-
-Name: Amal
+### ✍️ Example Format: 
+ 
+Name: Amal 
 Age: 28
-Occupation: Senior Data Engineer at NHS
-Hobbies: Science, logic, building personal AI tools, plasma experiments
-Personality: Curious, skeptical, clever, honest, Gen Z vibe
-Goals: Become a thought leader in data science and AI
+Occupation: Senior Data Engineer at NHS  
+Hobbies: Science, logic, building personal AI tools, plasma experiments 
+Personality: Curious, skeptical, clever, honest, Gen Z vibe 
+Goals: Become a thought leader in data science and AI 
+ 
 
 
-
-Feel free to expand this file with any information you'd want your assistant to "know".
+Feel free to expand this file with any information you'd want your assistant to "know". 
 
 ---
 
